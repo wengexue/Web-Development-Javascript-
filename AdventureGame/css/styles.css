@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+  font-family: Merriweather;
+  color: #000;  
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#container
+{
+	width: 500px;
+	height: 648px;
+	background-color: OldLace;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 25px;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 23px;
+	padding-bottom: 10px;
+	padding-top: 40px;
+	font-weight: normal;
+	text-shadow: 2px 1px #999;
+}
+
+#container img
+{
+	width: 300;
+	hight: 267;
+	margin-left: auto;
+	margin-right:auto
+	position: absolute;
+
+}
+
+button
+{
+  height: 25px;
+  width: 110px;
+  
+  font-family: Merriweather;
+	font-size: 14px;
+	color: #000;
+	border: 1px solid #000;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+	
+	background:-webkit-linear-gradient(top, rgba(255,255,255,0.6), rgba(0,0,0,0.2));
+	background:-moz-linear-gradient(top, #a3a3a3, rgba(0,0,0,0.2));
+	background: linear-gradient(top, #a3a3a3, rgba(0,0,0,0.2));
+	
+	-webkit-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+	
+	-webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+button:hover
+{
+	cursor:pointer;
+	border-color:#00F;	
+}
+
+#outputdiv
+{
+	width:320px;
+	height:auto;
+	text-align:left;
+	padding-left:10px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#helpdiv
+{
+	width:320px;
+	height:auto;
+	text-align:left;
+	padding-left:10px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#helpInfo
+{
+	width: 200px;
+	height: auto;
+	text-align: left;
+	float: right;
+	font-size: 14px;
+}

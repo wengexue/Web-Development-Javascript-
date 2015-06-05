@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Desert Adventure</title>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<section id="game">
+  <h1 style="text-align:center">Desert Adventure</h1>
+  <p id="musicSwitch">Music:
+    <label>
+      <input name="Music" type="radio" id="Music_0" value="1" checked onchange="radioChangeFunction()">
+      On</label>
+    <label>
+      <input type="radio" name="Music" value="0" id="Music_1" onchange="radioChangeFunction()">
+      Off</label>
+  </p>
+  <div id="start">
+    <p id="direction">This is a desert adventure game. You can use the arrow keys to move the explorer around the desert, visit water source to buy some water, fight bandit to win more gold, try not to get eaten by the wandering desert monster. The goal is to get home at the top right corner with as much gold and water as explorer can carry. You need some strategy and a little bit of luck.</p>
+      <button id="playButton">Start Game</button>
+  </div>
+  <div id="stage"></div>
+  <p id="output"></p>
+  <audio id="myAudio" loop>
+      <source src="Kalimba.mp3" type="audio/mpeg">
+  </audio>
+</section>
+<script type="text/javascript" src="js/program1.js"></script>
+</body>
+</html>
